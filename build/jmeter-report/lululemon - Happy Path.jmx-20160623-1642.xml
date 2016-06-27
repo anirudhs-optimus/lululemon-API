@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="21388" lt="0" ts="1466680357601" s="false" lb="Get Auth Token - Valid Keys" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="Happy Path APIs 1-1" dt="text" by="1971" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /successfully retrieved the Token/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: message expected to equal /
+
+****** received  : [[[Non HTTP response message: Connection timed out: connect]]]
+
+****** comparison: [[[OK                                                      ]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="21031" lt="0" ts="1466680378726" s="false" lb="App Navigation Page Content" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;displayName&quot;:&quot;home&quot;/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: message expected to equal /
+
+****** received  : [[[Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused]]]
+
+****** comparison: [[[OK                                                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="21046" lt="0" ts="1466680399779" s="false" lb="Login User method" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;result&quot;:&quot;success&quot;/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: message expected to equal /
+
+****** received  : [[[Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused]]]
+
+****** comparison: [[[OK                                                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="21003" lt="0" ts="1466680420787" s="false" lb="Userslist method " rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="21013" lt="0" ts="1466680441806" s="false" lb="Get Category method" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="0" lt="0" ts="1466680441817" s="false" lb="Get product static details" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 59: https://stage-gsr.lululemon.com/llmapi/v1/catalog/product/${productId}?_type=json&amp;locale=en_CA&amp;sl=CA&amp;displayAll=true" tn="Happy Path APIs 1-1" dt="text" by="1031" ng="1" na="1"/>
+<httpSample t="0" lt="0" ts="1466680441836" s="false" lb="Get Dynamic Product details" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 74: http://stage-gsr.lululemon.com/llmapi/v1/catalog/product/skuavailability/${productId}?_type=json&amp;locale=en_CA&amp;sl=CA&amp;displayAll=true" tn="Happy Path APIs 1-1" dt="text" by="1046" ng="1" na="1"/>
+<httpSample t="21008" lt="0" ts="1466680462848" s="false" lb="Add item to cart" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="21011" lt="0" ts="1466680483865" s="false" lb="Get Shopping bag" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="21011" lt="0" ts="1466680504880" s="false" lb="Get Current Order method" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="21011" lt="0" ts="1466680525897" s="false" lb="Order available shipping methods" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<httpSample t="0" lt="0" ts="1466680525902" s="false" lb="Order add shipping method" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 63: https://stage-gsr.lululemon.com/llmapi/v1/order/addshipmethod/${shippingMethod}?_type=json&amp;locale=en_CA&amp;sl=CA" tn="Happy Path APIs 1-1" dt="text" by="1024" ng="1" na="1"/>
+<httpSample t="21012" lt="0" ts="1466680546917" s="false" lb="Add billing info in order method" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connection to https://stage-gsr.lululemon.com refused" tn="Happy Path APIs 1-1" dt="text" by="2428" ng="1" na="1"/>
+<sample t="189146" lt="0" ts="1466680546919" s="false" lb="Transaction Controller" rc="" rm="Number of samples in transaction : 12, number of failing samples : 12" tn="Happy Path APIs 1-1" dt="" by="24953" ng="1" na="1"/>
+
+</testResults>

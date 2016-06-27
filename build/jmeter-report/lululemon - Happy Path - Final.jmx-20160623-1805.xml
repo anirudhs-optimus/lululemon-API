@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1818" lt="1816" ts="1466685309396" s="true" lb="Get Auth Token - Valid Keys" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="1092" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2252" lt="1510" ts="1466685311729" s="true" lb="App Navigation Page Content" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="8912" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="1510" lt="1510" ts="1466685310987" s="true" lb="https://shop.lululemon.com/llmapi/v1/contentapi/shopnavigation?_type=json&amp;locale=en_CA&amp;sl=CA" rc="302" rm="Moved Temporarily" tn="Happy Path APIs 1-1" dt="" by="372" ng="1" na="1"/>
+  <httpSample t="729" lt="729" ts="1466685311729" s="true" lb="http://shop.lululemon.com:80/llmapi/v1/contentapi/shopnavigation?_type=json&amp;locale=en_CA&amp;sl=CA" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="8540" ng="1" na="1"/>
+</httpSample>
+<httpSample t="570" lt="570" ts="1466685312313" s="true" lb="Login User method" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="1367" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="1542" lt="370" ts="1466685313868" s="true" lb="Get Category method" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="45975" ng="1" na="1">
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="370" lt="370" ts="1466685312696" s="true" lb="https://shop.lululemon.com/llmapi/v1/catalog/category/women-sports-bras?_type=json&amp;locale=en_CA&amp;sl=CA" rc="302" rm="Moved Temporarily" tn="Happy Path APIs 1-1" dt="" by="381" ng="1" na="1"/>
+  <httpSample t="1170" lt="1094" ts="1466685313868" s="true" lb="http://shop.lululemon.com:80/llmapi/v1/catalog/category/women-sports-bras?_type=json&amp;locale=en_CA&amp;sl=CA" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="45594" ng="1" na="1"/>
+</httpSample>
+<httpSample t="971" lt="302" ts="1466685314854" s="true" lb="Get product static details" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="6135" ng="1" na="1">
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="302" lt="302" ts="1466685314185" s="true" lb="https://shop.lululemon.com/llmapi/v1/catalog/product/prod8200011?_type=json&amp;locale=en_CA&amp;sl=CA&amp;displayAll=true" rc="302" rm="Moved Temporarily" tn="Happy Path APIs 1-1" dt="" by="390" ng="1" na="1"/>
+  <httpSample t="667" lt="666" ts="1466685314854" s="true" lb="http://shop.lululemon.com:80/llmapi/v1/catalog/product/prod8200011?_type=json&amp;locale=en_CA&amp;sl=CA&amp;displayAll=true" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="5745" ng="1" na="1"/>
+</httpSample>
+<httpSample t="1076" lt="1076" ts="1466685315956" s="true" lb="Get Dynamic Product details" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="845" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="1175" lt="1175" ts="1466685317139" s="true" lb="Add item to cart" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="" by="5710" ng="1" na="1">
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="751" lt="751" ts="1466685317901" s="true" lb="Get Shopping bag" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="4312" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="369" lt="369" ts="1466685318279" s="true" lb="Get Current Order method" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="5443" ng="1" na="1">
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="335" lt="335" ts="1466685318623" s="true" lb="Order available shipping methods" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="1379" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="991" lt="991" ts="1466685319623" s="true" lb="Order add shipping method" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="5541" ng="1" na="1">
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="610" lt="610" ts="1466685320241" s="true" lb="Add billing info in order method" rc="200" rm="OK" tn="Happy Path APIs 1-1" dt="text" by="6887" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="10642" lt="8059" ts="1466685320248" s="true" lb="Transaction Controller" rc="200" rm="Number of samples in transaction : 11, number of failing samples : 0" tn="Happy Path APIs 1-1" dt="" by="92506" ng="1" na="1"/>
+
+</testResults>

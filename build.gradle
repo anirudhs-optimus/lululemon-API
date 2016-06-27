@@ -1,0 +1,54 @@
+apply plugin: 'jmeter'
+apply plugin: 'java'
+
+List<String> pluginList = new ArrayList<String>()
+
+buildscript {
+    ext.pluginsVersion = "1.3.1"
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.kulya:jmeter-gradle-plugin:1.3.4-2.13'
+        classpath "org.codehaus.groovy:groovy-all:2.4.3"
+        classpath 'org.json:json:20151123'
+        classpath 'org.skyscreamer:jsonassert:1.2.3'
+        classpath 'com.eclipsesource.minimal-json:minimal-json:0.9.4'
+        classpath group: 'kg.apc', name: 'jmeter-plugins-standard', version: pluginsVersion
+        classpath group: 'kg.apc', name: 'jmeter-plugins-common', version: pluginsVersion
+        classpath group: 'kg.apc', name: 'jmeter-plugins-extras', version: pluginsVersion
+        classpath group: 'kg.apc', name: 'jmeter-plugins-extras-libs', version: pluginsVersion
+        //classpath group: 'kg.apc', name: 'jmeter-plugins-webdriver', version: pluginsVersion
+        classpath 'org.postgresql:postgresql:9.4-1200-jdbc41'
+    }
+
+    configurations.classpath.exclude group: 'commons-math3', module: 'commons-math3'
+    configurations.classpath.exclude group: 'commons-pool2', module: 'commons-pool2'
+}
+
+task addToJmeterClasspath << {
+    println "\nLoading the following jmeter plugins..."
+    buildscript.configurations.classpath.each { 
+        String absolutePath = it.getAbsolutePath();
+        if (absolutePath.contains("jmeter-plugins") || absolutePath.contains("groovy") || absolutePath.contains("guava") || absolutePath.contains("opencsv") || absolutePath.contains("commons-lang3") ) {
+            println "  " + absolutePath;
+            pluginList.add(absolutePath.replace("\\","/"));
+        }
+    }
+    println ""
+}
+
+task functionalTest << {
+    includes = ['functional/lululemon - Happy Path - CSV Result Report.jmx']
+    excludes = ['performance/*.jmx']
+}
+
+task performanceTest << {
+    includes = ['performance/.jmx']
+    excludes = ['functional/*.jmx']
+}
+
+jmeterEditor.configure {
+    maxHeapSize = "1200M"
+    jmeterPluginJars = pluginList
+}
