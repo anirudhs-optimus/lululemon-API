@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,Latency,IdleTime
+1467012283184,2822,Get Auth Token - Valid Keys,200,OK,Happy Path APIs 1-1,text,true,,1092,1,1,2822,0
+1467012286068,1474,App Navigation Page Content,200,OK,Happy Path APIs 1-1,text,true,,8912,1,1,645,0
+1467012287547,577,Login User method,200,OK,Happy Path APIs 1-1,text,true,,1367,1,1,577,0
+1467012288129,3442,Get Category method,200,OK,Happy Path APIs 1-1,text,true,,43015,1,1,1453,0
+1467012291575,1032,Get product static details,200,OK,Happy Path APIs 1-1,text,true,,6135,1,1,518,0
+1467012292611,464,Get Dynamic Product details,200,OK,Happy Path APIs 1-1,text,true,,845,1,1,464,0
+1467012293078,895,Add item to cart,200,OK,Happy Path APIs 1-1,,true,,5710,1,1,894,0
+1467012293976,615,Get Shopping bag,200,OK,Happy Path APIs 1-1,text,true,,4312,1,1,615,0
+1467012294594,480,Get Current Order method,200,OK,Happy Path APIs 1-1,text,true,,5443,1,1,480,0
+1467012295077,985,Order available shipping methods,200,OK,Happy Path APIs 1-1,text,true,,1385,1,1,985,0
+1467012296065,1476,Order add shipping method,200,OK,Happy Path APIs 1-1,text,true,,5541,1,1,1476,0
+1467012297544,790,Add billing info in order method,200,OK,Happy Path APIs 1-1,text,true,,6887,1,1,790,0
+1467012286019,12230,Transaction Controller,200,"Number of samples in transaction : 11, number of failing samples : 0",Happy Path APIs 1-1,,true,,89552,1,1,8897,88
