@@ -39,7 +39,7 @@ task addToJmeterClasspath << {
 }
 
 task functionalTest << {
-    includes = ['functional/lululemon - Happy Path - CSV Result Report.jmx']
+    includes = ['functional/lululemon-Happy_Path-XML_ResultReport.jmx']
     excludes = ['performance/*.jmx']
 }
 
