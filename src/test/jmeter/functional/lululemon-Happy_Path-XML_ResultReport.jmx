@@ -1180,7 +1180,7 @@
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">${absolutePath}\Result Report-${__time(dd-MM-yyyy,)}-${__time(hh-mm-a,)}.xml</stringProp>
+          <stringProp name="filename">${absolutePath}\Result Report.xml</stringProp>
           <boolProp name="useGroupName">true</boolProp>
         </ResultCollector>
         <hashTree/>
